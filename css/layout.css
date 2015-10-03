@@ -11,6 +11,14 @@ img{
 	max-width: 100%;
 	height: auto;
 }
+.cf:before,
+.cf:after{
+	content: " ";
+	display: table;
+}
+.cf:after{
+	clear: both;
+}
 /* Text align */
 .ba-text-left {
 	text-align: left;
